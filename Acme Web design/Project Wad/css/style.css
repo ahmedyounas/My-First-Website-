@@ -1,0 +1,525 @@
+body{
+ font-family:Arial,Helvetica,sans-serif;
+ font-size:15px;
+ line-height:1.5;
+ padding:0;
+margin:0;
+background-colour:#f4f4f4;  /*#f4f4f4 light gray*/
+}
+/*GLOBEL CLASSS CALD*/
+.container{
+ width:80%;
+ margin:auto;
+  overflow:auto;
+}
+
+/* for dark background**/
+
+.dark{
+
+  padding:15px;
+  background:#35424a; /*#35424a DARK GRAY*/
+  colour:#ffffff;   /*#FFFFF WHITE */
+  margin-top:10px;
+  margin-bottom: 10px;
+    border-radius: 16px;
+
+}
+header ul{
+margin:0;
+padding:0;
+}
+
+/*SUBSCRIBE BUTTON OF NEWSLETTER*/
+.button_1{
+height:38px;
+background:#e8491d;  /*#e8491d ORANGE*/
+border:0;
+padding-left:20px;
+padding-right:20px;
+color:#ffffff;   /*#ffffff WHITE*/
+}
+
+/*REGISTER BUTTON OF REGISTERFORM*/
+.button_2{
+    height:38px;
+    background:#e8491d;  /*#e8491d ORANGE*/
+    border:0;
+    padding-left:20px;
+    padding-right:20px;
+    color:#ffffff;   /*#ffffff WHITE*/
+}
+/*Login Button*/
+.button_3{
+    height:38px;
+    background:#e8491d;  /*#e8491d ORANGE*/
+    border:0;
+    padding-left:20px;
+    padding-right:20px;
+    color:#ffffff;   /*#ffffff WHITE*/
+}
+/* forget button*/
+
+.button_4{
+    height:38px;
+    background:#e8491d;  /*#e8491d ORANGE*/
+    border:0;
+    padding-left:20px;
+    padding-right:20px;
+    color:#ffffff;   /*#ffffff WHITE*/
+}
+/*HEADER**/
+header{
+background:#35424a;   /*#35424a DARK GRAY*/
+color:#ffffff;
+padding-top:30px;
+min-height:70px;
+border-bottom:#e8491d 3px solid;
+}
+/*THIS HEADER A IS USED TO DISPLAY WHITE COLOUR WHEN THE UPER BUTTONS "HOME ABOUT SERVICE" ARE NOT SELECTED*/
+header a{
+color:#FFFFFF;
+text-decoration:none;
+text-transform:uppercase;
+font-size:16px;
+}
+
+/* NOT KNOWN ***********************************************************************************/
+
+header li{
+color:#e8491d;
+float:left;
+display:inline;
+padding:0 20px 0 20px;
+}
+
+
+header #branding{
+float:left;
+
+}
+
+
+header #branding h1{
+margin:0;
+}
+
+header nav{
+float:right;
+margin-top:10px;
+}
+
+       /*USED FOR HIGHLIGHTING THE ACME WORD IN THE <h1> tag in the html files (ORANGE)*/
+header .highlight,span{
+color:#e8491d ;
+font-weight:bold;
+}
+       /*USED FOR HIGHLIGHTING THE HOME BUTTON AND OTHERS WHEN SELECTED (ORANGE)*/
+header .highlight,header .current a{
+color:#e8491d ;
+font-weight:bold;
+}
+
+header a:hover{
+color:#cccccc;
+font-weight:bold;
+}
+
+/* SHOWCASE HOME PAGE
+IT IS THE LARGE IMAGE THAT IS IN BETWEEN THE CENTER OF THE PAGE THE HOME PAGE*/
+#showcase{
+min-height: 400px;
+background:url('../img/showcase.jpg') no-repeat 0 -400px;
+text-align:center;
+color:#ffffff;
+
+}
+/*APPLING THE ALLIGNMENT OF THE TEXT WRITTEN IN THE SHOWCASE WHICH IS
+> H1 TAG
+>P tag
+> */
+
+#showcase h1{
+margin-top:100px;
+font-size:55px;
+margin-bottom:10px;
+}
+
+
+
+#showcase p{
+font-size:20px;
+}
+
+/*THIS IS THE THE WHITE BOX WHICH IS USED TO ENTER THE EMAILS */
+#newsletter{
+padding:15px;
+color:#ffffff;  /*#FFFFFF IS WHITE COLOR*/
+background:#35424a;  /*#35424a THIS IS THE DRK GRAY BACKGROUND COLOUR*/
+}
+
+
+#newsletter h1{
+float:left;
+}
+
+/*Appling the styling on the form tag used in the html files go visit them */
+
+#newsletter form{
+float:right;
+margin-top:15px;
+}
+/*NOW THERE IS A TASK FOR ALL OF YOU YOU HAVE TO ENTER THE CORRECT EMAIL AND THE WRONG FORMATED EMAIL IN THE BOX
+AND THEN COMMENT WHAT HAPPEND TO THE PAGE RIGHT IN FROUNT OF THIS CODE*/
+#newsletter input[type="email"]{
+    padding:4px;
+    height:25px;          /*ANS:                */
+    width:250px;
+}
+
+
+
+
+
+
+
+
+
+/* BOXES */
+/* GO SEE THE INDEX.HTML FILE AND FIND THE BOXES AND WRITE THE PURPOS OF THE USING BOXES DOWN HEAR*/
+#boxes{
+margin-top:20px;
+}
+
+#boxes .box{
+float:left;                        /*ANS:                               */
+text-align:center;
+width:30%;
+padding:10px;
+}
+
+
+#boxes .box img{
+width: 90px;
+}
+                  /* SIDEBAR IN ABOUT PAGE*/
+                  /*THIS IS USED TO ADD STYLING TO THE DATA IN THE SIDE BAR SHOWN IN THE OUTPUT AFTER RUNNING*/
+                  /*Why is aside used for and what is the differnce in the layout if u change the code one by one
+                  >COLOR
+                  >weidth
+                  >margin*/
+
+/*ANS:                                                                       */
+
+
+/*           ------------------------- CONTACT PAGE CSS -------------------------------------*/
+aside#sidebarcontact{
+    margin-left: 150px;
+    float:left;
+    width:30%;
+    margin-top:10px;
+    color:#ffffff;
+}
+
+/*FEED BACK ASIDE */
+aside#sidebar{
+    margin-right: 150px;
+  float:right;
+  width:30%;                          /*ANS:                                   */
+  margin-top:10px;
+  color:#ffffff;
+}
+/*sidebar for map in contact page*/
+aside#sidebarmap{
+
+    margin: 150px;
+    float:right;
+    width:30%;                          /*ANS:                                   */
+    margin-top:50px;
+    color:#ffffff;
+
+}
+
+/*social media links*/
+aside#sidebar1{
+    margin-right: 150px;
+    float:right;
+    width:30%;                          /*ANS:                                   */
+    margin-top:10px;
+    color:#ffffff;
+}
+/* in about page for specific questions*/
+aside#sidebar2{
+    margin-right: 150px;
+    float:right;
+    width:30%;                          /*ANS:                                   */
+    margin-top:10px;
+    color:#ffffff;
+}
+aside#sidebar3{
+    margin-right: 150px;
+    float:right;
+    width:30%;                          /*ANS:                                   */
+    margin-top:10px;
+    color:#ffffff;
+}
+
+aside#sidebar4{
+    margin-right: 150px;
+    float:right;
+    width:30%;                          /*ANS:                                   */
+    margin-top:10px;
+    color:#ffffff;
+}
+
+
+
+/*---------------------------------------------------------------------------*/
+
+/* about us data paragraph Allignmnet**/
+.artical#main-col{
+  float:left;
+  width:65%;
+}
+/* SERVISES */
+/* MAKES BOXEX AROUND THE TEXT PARAGRAPHES **/
+
+ul#servises li{
+  list-style:none;
+  padding:20px;                   /* NOT WORKING **/
+  border:#cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+/*-------------------------------------------------------------------------------------*/
+                                   /*search bar */
+.search-box{
+    position:absolute;
+
+    left :50%;
+    width:200px; /*weidth of the search box*/
+    transform: translate(-50%,-50%);
+    background:#35424a;
+    height:60px;
+    border-radius:40px;
+    padding :10px;
+}
+.search-btn{
+    color:#e8491d;
+    float:right;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:#35424a;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.search-txt{
+    border:none;
+    background:#35424a ;
+    outline:none;
+    float:left;
+    padding:0;
+    color:white;
+    font-size: 16px;
+    transition:0.4s;
+    line-height:40px;
+    width:350px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+
+
+/*-------------------------------SEARCH BAR 2 FOR THE Q&A PAGE --------------------------------------------------------------*/
+/*search bar */
+.search-box2{
+    position:absolute;
+
+    right :50px;
+    width:200px; /*weidth of the search box*/
+    transform: translate(-50%,-50%);
+    background:#35424a;
+    height:0%;
+    border-radius:30px;
+
+}
+.search-btn2{
+    color:#e8491d;
+    float:right;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:#35424a;
+    display:flex;
+    padding-right: 1px;
+    justify-content: right;
+    align-items:center;
+
+}
+.search-txt2{
+    border:none;
+    background:#35424a ;
+    outline:none;
+    float:left;
+    padding:0;
+    color:white;
+    font-size: 16px;
+    transition:0.4s;
+    line-height:40px;
+    width:350px;
+}
+/*------------------------------------------------------------------------------------------------
+*/
+.vidcontainer {
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    float: center;
+   display:grid;
+    color: #FFFFFF;
+    grid-template-columns: 40% 30% 30%;
+}
+
+.vidcontainer >div
+{
+    background:#4c5f6b;
+    padding: 1em;
+    float:right;
+
+}
+.vidcontainer >div:nth-child(odd)
+{
+    background:#35424a;
+}
+
+
+footer{
+    padding :20px;
+    margin-top:30px;
+    color:#ffffff;
+    background:#e8491d;
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login_form {
+    max-width: 400px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+#inputEmail {
+    margin-bottom: 10px;
+}
+
+
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+
+
+#sidebar.active {
+    margin-left: -220px;
+}
+
+#sidebar {
+    min-width: 220px;
+    max-width: 220px;
+    min-height: 100vh;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -220px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    background: #e7dbef;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #f8f9fa;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+
+
+#sidebar ul li a {
+    padding: 5px;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+
+#content {
+    width: 100%;
+}
